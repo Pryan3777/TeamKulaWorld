@@ -1,0 +1,116 @@
+{
+  "MapXExtent": 3,
+  "MapYExtent": 6,
+  "MapZExtent": 3,
+  "object Player Player": {
+    "string Name": "Main",
+    "integer Score": 0,
+    "integer PlayerDirection": 2,
+    "integer CubeFace": 1,
+    "integer CubeID": 32
+  },
+  "Cubes": {
+    "object Cube 32": {
+      "string Name": "Cube 1",
+      "object Transform Transform": {
+        "LocalPosition": "vector<1|4|2|0>"
+      }
+    },
+    "object Cube 49": {
+      "string Name": "Cube 2",
+      "object Transform Transform": {
+        "LocalPosition": "vector<2|4|1|0>"
+      }
+    },
+    "object Cube 13": {
+      "string Name": "Cube 3",
+      "object Transform Transform": {
+        "LocalPosition": "vector<0|4|1|0>"
+      }
+    },
+    "object Cube 30": {
+      "string Name": "Cube 4",
+      "object Transform Transform": {
+        "LocalPosition": "vector<1|4|0|0>"
+      }
+    },
+    "object Cube 45": {
+      "string Name": "Cube 5",
+      "object Transform Transform": {
+        "LocalPosition": "vector<2|3|0|0>"
+      },
+      "object CubeOccupant Up": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 47": {
+      "string Name": "Cube 6",
+      "object Transform Transform": {
+        "LocalPosition": "vector<2|3|2|0>"
+      },
+      "object CubeOccupant Down": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 26": {
+      "string Name": "Cube 7",
+      "object Transform Transform": {
+        "LocalPosition": "vector<1|2|2|0>"
+      }
+    },
+    "object Cube 22": {
+      "string Name": "Cube 8",
+      "object Transform Transform": {
+        "LocalPosition": "vector<1|1|1|0>"
+      },
+      "object CubeOccupant Down": {
+        "integer OccupantType": 1,
+        "integer Value": 10
+      },
+      "object CubeOccupant Up": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 11": {
+      "string Name": "Cube 9",
+      "object Transform Transform": {
+        "LocalPosition": "vector<0|3|2|0>"
+      },
+      "object CubeOccupant Down": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 9": {
+      "string Name": "Cube 10",
+      "object Transform Transform": {
+        "LocalPosition": "vector<0|3|0|0>"
+      },
+      "object CubeOccupant Up": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 7": {
+      "string Name": "Cube 11",
+      "object Transform Transform": {
+        "LocalPosition": "vector<0|2|1|0>"
+      }
+    },
+    "object Cube 24": {
+      "string Name": "Cube 12",
+      "object Transform Transform": {
+        "LocalPosition": "vector<1|2|0|0>"
+      }
+    },
+    "object Cube 43": {
+      "string Name": "Cube 13",
+      "object Transform Transform": {
+        "LocalPosition": "vector<2|2|1|0>"
+      }
+    }
+  }
+}

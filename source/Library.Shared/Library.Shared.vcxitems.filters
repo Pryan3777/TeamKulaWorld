@@ -1,0 +1,979 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{13c7c6f7-09eb-4fce-af74-6f736c5f9ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{523d19e6-e81a-4b50-83be-d47a690ce275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parse">
+      <UniqueIdentifier>{ba480695-bbd1-41bf-b2ab-38b9b98f8fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parse\Derived">
+      <UniqueIdentifier>{5b79b37b-adb8-48e6-b279-5816f9cd2710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parse\Derived\ScopeJsonParse">
+      <UniqueIdentifier>{175afc1b-51cd-469f-b0c4-c12f9b3d94d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{455b8450-2331-4a78-a489-fd09ed15eec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{73ba56ae-28ed-497a-a971-e6e02d61f013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Attributed">
+      <UniqueIdentifier>{c184f3af-59ad-40de-a774-5643ab0b5fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Attributed\Action">
+      <UniqueIdentifier>{aa4bc28b-bb9f-4fe4-9dc6-cecec0884c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{8948684e-622f-4b7f-ad04-f9a531bb3c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{056d3795-4d95-4d39-85bb-4bd70827d76d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{8b6bbdf0-019b-482c-872b-f142c12cd25f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\Reaction">
+      <UniqueIdentifier>{9e783abb-a10a-4952-b1c4-7e66c835cc74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectXFramework">
+      <UniqueIdentifier>{1fa6166f-478b-4c52-8ba4-522ed139b4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FinalProjectFiles">
+      <UniqueIdentifier>{63332a35-8132-414f-a4dd-5c8514c55f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FinalProjectFiles\Cubes">
+      <UniqueIdentifier>{e161dde0-eab7-4746-942d-ee19554aa0ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FinalProjectFiles\EventArgs">
+      <UniqueIdentifier>{9b96c80d-244d-4f2c-bdb3-944b80d6dc7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FinalProjectFiles\Models">
+      <UniqueIdentifier>{819afb3c-a4ee-4011-adca-bdf0c071d943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FinalProjectFiles\Components">
+      <UniqueIdentifier>{85b04ba2-ac8c-4198-8905-3b6d235174fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SList.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)pch.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Vector.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DefaultEquality.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DefaultGrowCapacity.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)HashMap.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DefaultHash.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DefaultEmplaceDefault.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Datum.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)RTTI.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Scope.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IJsonParseHelper.h">
+      <Filter>Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)JsonParseCoordinator.h">
+      <Filter>Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ParseCoordinator.h">
+      <Filter>Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ScopeParseWrapper.h">
+      <Filter>Parse\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Stack.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)JsonNestedObjectParseHelper.h">
+      <Filter>Parse\Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TypeScopeJsonParseHelper.h">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ScopeJsonParseHelper.h">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ClassScopeJsonParseHelper.h">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Factory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameClock.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Transform.h">
+      <Filter>Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameObject.h">
+      <Filter>Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Attributed.h">
+      <Filter>Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AttributedSignatureRegistry.h">
+      <Filter>Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ElementScopeJsonParseHelper.h">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AllScopeJsonParseHelper.h">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Action.h">
+      <Filter>Attributed\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionList.h">
+      <Filter>Attributed\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionIf.h">
+      <Filter>Attributed\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionExpression.h">
+      <Filter>Attributed\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ScopeJsonKeyTokenTransmuter.h">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IJsonValueTransmuter.h">
+      <Filter>Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Algorithms.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ShuntingYardParser.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReversePolishEvaluator.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionIncrement.h">
+      <Filter>Attributed\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EventSubscriber.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IEventArgs.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Event.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EventQueue.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Reaction.h">
+      <Filter>Events\Reaction</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameplayState.h">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AttributedReaction.h">
+      <Filter>Events\Reaction</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AttributedEventArgs.h">
+      <Filter>Events\Reaction</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionEvent.h">
+      <Filter>Attributed\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)BasicMaterial.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)BlendStates.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Camera.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ColorHelper.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ContentManager.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ContentTypeReader.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ContentTypeReaderManager.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DirectionalLight.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DirectXHelper.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DrawableGameComponent.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)FirstPersonCamera.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)FpsComponent.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Game.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameComponent.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameException.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GamePadComponent.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Grid.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)imgui_impl_dx11.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ImGuiComponent.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)KeyboardComponent.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Light.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Material.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MatrixHelper.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Mesh.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Model.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ModelMaterial.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ModelReader.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MouseComponent.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)OrthographicCamera.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)PerspectiveCamera.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)PixelShader.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)PixelShaderReader.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Point.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)PointLight.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ProxyModel.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)RasterizerStates.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Rectangle.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)RenderStateHelper.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)RenderTarget.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SamplerStates.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ServiceContainer.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Shader.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Skybox.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SkyboxMaterial.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SpotLight.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)StreamHelper.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)StringHelper.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Texture.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Texture2D.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Texture2DReader.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TextureCube.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TextureCubeReader.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TextureHelper.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Utility.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)VectorHelper.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)VertexDeclarations.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)VertexShader.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)VertexShaderReader.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)UtilityWin32.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericMaterial.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Player.h">
+      <Filter>FinalProjectFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)BasicTitle.h">
+      <Filter>FinalProjectFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Level.h">
+      <Filter>FinalProjectFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Direction3D.h">
+      <Filter>FinalProjectFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IntVector3D.h">
+      <Filter>FinalProjectFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ExpressionScopeJsonParseHelper.h">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)BaseDrawableGameobject.h">
+      <Filter>FinalProjectFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NormalMappingMaterial.h">
+      <Filter>DirectXFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)BallModel.h">
+      <Filter>FinalProjectFiles\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ClockEventArgs.h">
+      <Filter>FinalProjectFiles\EventArgs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CoinModel.h">
+      <Filter>FinalProjectFiles\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CubeMaterial.h">
+      <Filter>FinalProjectFiles\Cubes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Cube.h">
+      <Filter>FinalProjectFiles\Cubes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CubeModel.h">
+      <Filter>FinalProjectFiles\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EndScreenComponent.h">
+      <Filter>FinalProjectFiles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ScoreComponent.h">
+      <Filter>FinalProjectFiles\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ScoreIncrementEventArgs.h">
+      <Filter>FinalProjectFiles\EventArgs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CubeOccupant.h">
+      <Filter>FinalProjectFiles\Cubes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CubeOccupantInteractedEventArgs.h">
+      <Filter>FinalProjectFiles\EventArgs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)PlayerOntoCubeEventArgs.h">
+      <Filter>FinalProjectFiles\EventArgs</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GenericModel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)KulaHelperFunctions.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)BasicSprite.h">
+      <Filter>FinalProjectFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)pch.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)DefaultGrowCapacity.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)RTTI.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Datum.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Scope.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IJsonParseHelper.cpp">
+      <Filter>Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)JsonParseCoordinator.cpp">
+      <Filter>Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ParseCoordinator.cpp">
+      <Filter>Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ScopeParseWrapper.cpp">
+      <Filter>Parse\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)JsonNestedObjectParseHelper.cpp">
+      <Filter>Parse\Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)TypeScopeJsonParseHelper.cpp">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ScopeJsonParseHelper.cpp">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ClassScopeJsonParseHelper.cpp">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameClock.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Transform.cpp">
+      <Filter>Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameObject.cpp">
+      <Filter>Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Attributed.cpp">
+      <Filter>Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AttributedSignatureRegistry.cpp">
+      <Filter>Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AllScopeJsonParseHelper.cpp">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Action.cpp">
+      <Filter>Attributed\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionList.cpp">
+      <Filter>Attributed\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionIf.cpp">
+      <Filter>Attributed\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionExpression.cpp">
+      <Filter>Attributed\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ScopeJsonKeyTokenTransmuter.cpp">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IJsonValueTransmuter.cpp">
+      <Filter>Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Algorithms.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ShuntingYardParser.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReversePolishEvaluator.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionIncrement.cpp">
+      <Filter>Attributed\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IEventArgs.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Event.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)EventQueue.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Reaction.cpp">
+      <Filter>Events\Reaction</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameplayState.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AttributedReaction.cpp">
+      <Filter>Events\Reaction</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AttributedEventArgs.cpp">
+      <Filter>Events\Reaction</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionEvent.cpp">
+      <Filter>Attributed\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)DefaultHash.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)BasicMaterial.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)BlendStates.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Camera.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ColorHelper.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ContentManager.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ContentTypeReader.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ContentTypeReaderManager.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)DirectionalLight.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)DirectXHelper.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)DrawableGameComponent.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)FirstPersonCamera.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)FpsComponent.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Game.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameComponent.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameException.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GamePadComponent.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Grid.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)imgui_impl_dx11.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ImGuiComponent.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)KeyboardComponent.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Light.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Material.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)MatrixHelper.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Mesh.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Model.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ModelMaterial.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ModelReader.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)MouseComponent.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)OrthographicCamera.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)PerspectiveCamera.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)PixelShader.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)PixelShaderReader.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Point.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)PointLight.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ProxyModel.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)RasterizerStates.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Rectangle.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)RenderStateHelper.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)RenderTarget.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)SamplerStates.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ServiceContainer.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Shader.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Skybox.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)SkyboxMaterial.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)SpotLight.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)StreamHelper.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)StringHelper.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Texture.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Texture2D.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Texture2DReader.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)TextureCube.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)TextureCubeReader.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)TextureHelper.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Utility.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)VectorHelper.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)VertexDeclarations.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)VertexShader.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)VertexShaderReader.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)UtilityWin32.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GenericMaterial.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Player.cpp">
+      <Filter>FinalProjectFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)BasicTitle.cpp">
+      <Filter>FinalProjectFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Level.cpp">
+      <Filter>FinalProjectFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ExpressionScopeJsonParseHelper.cpp">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)NormalMappingMaterial.cpp">
+      <Filter>DirectXFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)BallModel.cpp">
+      <Filter>FinalProjectFiles\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ClockEventArgs.cpp">
+      <Filter>FinalProjectFiles\EventArgs</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CoinModel.cpp">
+      <Filter>FinalProjectFiles\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Cube.cpp">
+      <Filter>FinalProjectFiles\Cubes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CubeMaterial.cpp">
+      <Filter>FinalProjectFiles\Cubes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CubeModel.cpp">
+      <Filter>FinalProjectFiles\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)EndScreenComponent.cpp">
+      <Filter>FinalProjectFiles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ScoreComponent.cpp">
+      <Filter>FinalProjectFiles\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ScoreIncrementEventArgs.cpp">
+      <Filter>FinalProjectFiles\EventArgs</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CubeOccupant.cpp">
+      <Filter>FinalProjectFiles\Cubes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)PlayerOntoCubeEventArgs.cpp">
+      <Filter>FinalProjectFiles\EventArgs</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CubeOccupantInteractedEventArgs.cpp">
+      <Filter>FinalProjectFiles\EventArgs</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GenericModel.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)BasicSprite.cpp">
+      <Filter>FinalProjectFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)SList.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Vector.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)HashMap.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)DefaultEmplaceDefault.inl">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)DefaultHash.inl">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)RTTI.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Datum.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Scope.inl">
+      <Filter>Containers</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ParseCoordinator.inl">
+      <Filter>Parse</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)JsonParseCoordinator.inl">
+      <Filter>Parse</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)IJsonParseHelper.inl">
+      <Filter>Parse</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ScopeParseWrapper.inl">
+      <Filter>Parse\Derived</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)JsonNestedObjectParseHelper.inl">
+      <Filter>Parse\Derived</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)TypeScopeJsonParseHelper.inl">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ClassScopeJsonParseHelper.inl">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Factory.inl">
+      <Filter>Factory</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)GameClock.inl">
+      <Filter>Time</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)GameTime.inl">
+      <Filter>Time</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Transform.inl">
+      <Filter>Attributed</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)GameObject.inl">
+      <Filter>Attributed</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Attributed.inl">
+      <Filter>Attributed</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)AttributedSignatureRegistry.inl">
+      <Filter>Attributed</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ElementScopeJsonParseHelper.inl">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)AllScopeJsonParseHelper.inl">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Action.inl">
+      <Filter>Attributed\Action</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ActionList.inl">
+      <Filter>Attributed\Action</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ActionIf.inl">
+      <Filter>Attributed\Action</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ActionExpression.inl">
+      <Filter>Attributed\Action</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ScopeJsonKeyTokenTransmuter.inl">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ShuntingYardParser.inl">
+      <Filter>Algorithm</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ReversePolishEvaluator.inl">
+      <Filter>Algorithm</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ActionIncrement.inl">
+      <Filter>Attributed\Action</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)EventSubscriber.inl">
+      <Filter>Events</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Event.inl">
+      <Filter>Events</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)EventQueue.inl">
+      <Filter>Events</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Reaction.inl">
+      <Filter>Events\Reaction</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)GameplayState.inl">
+      <Filter>Gameplay</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)AttributedReaction.inl">
+      <Filter>Events\Reaction</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)AttributedEventArgs.inl">
+      <Filter>Events\Reaction</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ActionEvent.inl">
+      <Filter>Attributed\Action</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)DefaultEquality.inl">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ContentManager.inl">
+      <Filter>DirectXFramework</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ContentTypeReader.inl">
+      <Filter>DirectXFramework</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Game.inl">
+      <Filter>DirectXFramework</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Light.inl">
+      <Filter>DirectXFramework</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Material.inl">
+      <Filter>DirectXFramework</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Point.inl">
+      <Filter>DirectXFramework</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Rectangle.inl">
+      <Filter>DirectXFramework</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Texture.inl">
+      <Filter>DirectXFramework</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)VectorHelper.inl">
+      <Filter>DirectXFramework</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)VertexDeclarations.inl">
+      <Filter>DirectXFramework</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Direction3D.inl">
+      <Filter>FinalProjectFiles</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)IntVector3D.inl">
+      <Filter>FinalProjectFiles</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)ExpressionScopeJsonParseHelper.inl">
+      <Filter>Parse\Derived\ScopeJsonParse</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)CubeOccupant.inl">
+      <Filter>FinalProjectFiles\Cubes</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)CubeOccupantInteractedEventArgs.inl">
+      <Filter>FinalProjectFiles\EventArgs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)PlayerOntoCubeEventArgs.inl">
+      <Filter>FinalProjectFiles\EventArgs</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Cube.inl">
+      <Filter>FinalProjectFiles\Cubes</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Level.inl">
+      <Filter>FinalProjectFiles</Filter>
+    </None>
+  </ItemGroup>
+</Project>

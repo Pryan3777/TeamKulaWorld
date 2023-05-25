@@ -1,0 +1,23 @@
+{
+  "object GameObject Scene": {
+    "string Name": "Main",
+    "object GameObject Children": {
+      "Name": "Child",
+      "object ActionIncrement Actions": {
+        "Name": "UpdateCounter"
+      }
+    },
+    "object ActionIf Actions": {
+      "string Name": "Toggle Update Counters",
+      "object ActionIncrement Actions": {
+        "Name": "DoubleUpdateCounter",
+        "integer Step": 2
+      },
+      "object ActionIncrement ElseActions": {
+        "Name": "Countdown",
+        "integer Current": 5,
+        "integer Step": -1
+      }
+    }
+  }
+}

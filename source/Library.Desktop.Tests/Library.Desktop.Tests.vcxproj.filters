@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="SListTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Foo.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="FooTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="HashMapTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultHashTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DatumTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="RTTITests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedThing.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedTestMonster.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="TestModule.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedSignatureRegistryTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="NamedIntArrayTestParseWrapper.cpp">
+      <Filter>Support Code\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="NamedFloatArrayTestParseWrapper.cpp">
+      <Filter>Support Code\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="NamedStringArrayTestParseWrapper.cpp">
+      <Filter>Support Code\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonIntTestParseHelper.cpp">
+      <Filter>Support Code\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonIntArrayTestParseHelper.cpp">
+      <Filter>Support Code\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonParseCoordinatorTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestParseWrapper.cpp">
+      <Filter>Support Code\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonTestParseHelper.cpp">
+      <Filter>Support Code\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonTypeTestParseHelper.cpp">
+      <Filter>Support Code\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonFloatArrayTestParseHelper.cpp">
+      <Filter>Support Code\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonFloatTestParseHelper.cpp">
+      <Filter>Support Code\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonStringArrayTestParseHelper.cpp">
+      <Filter>Support Code\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonStringTestParseHelper.cpp">
+      <Filter>Support Code\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeJsonTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestGameObject.cpp">
+      <Filter>Support Code</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="EventQueueTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FooEventArgs.cpp">
+      <Filter>Support Code\EventArgs</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapedIntEventArgs.cpp">
+      <Filter>Support Code\EventArgs</Filter>
+    </ClCompile>
+    <ClCompile Include="IntEventArgs.cpp">
+      <Filter>Support Code\EventArgs</Filter>
+    </ClCompile>
+    <ClCompile Include="IntFloatEventArgs.cpp">
+      <Filter>Support Code\EventArgs</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherIntEventArgs.cpp">
+      <Filter>Support Code\EventArgs</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerIntEventArgs.cpp">
+      <Filter>Support Code\EventArgs</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedIntEventArgs.cpp">
+      <Filter>Support Code\EventArgs</Filter>
+    </ClCompile>
+    <ClCompile Include="UniqueIntEventArgs.cpp">
+      <Filter>Support Code\EventArgs</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSubscriptionTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="NoOpJsonValueTransmuter.cpp">
+      <Filter>Support Code\Parse</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributedReactionTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ReversePolishEvaluatorTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Direction3DTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Foo.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="ToStringSpecializations.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedThing.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributedTestMonster.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="NamedIntArrayTestParseWrapper.h">
+      <Filter>Support Code\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="NamedFloatArrayTestParseWrapper.h">
+      <Filter>Support Code\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="NamedStringArrayTestParseWrapper.h">
+      <Filter>Support Code\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonIntTestParseHelper.h">
+      <Filter>Support Code\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonIntArrayTestParseHelper.h">
+      <Filter>Support Code\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="TestParseWrapper.h">
+      <Filter>Support Code\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonTestParseHelper.h">
+      <Filter>Support Code\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonTypeTestParseHelper.h">
+      <Filter>Support Code\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonFloatArrayTestParseHelper.h">
+      <Filter>Support Code\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonFloatTestParseHelper.h">
+      <Filter>Support Code\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonStringArrayTestParseHelper.h">
+      <Filter>Support Code\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonStringTestParseHelper.h">
+      <Filter>Support Code\Parse</Filter>
+    </ClInclude>
+    <ClInclude Include="TestGameObject.h">
+      <Filter>Support Code</Filter>
+    </ClInclude>
+    <ClInclude Include="FooEventArgs.h">
+      <Filter>Support Code\EventArgs</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapedIntEventArgs.h">
+      <Filter>Support Code\EventArgs</Filter>
+    </ClInclude>
+    <ClInclude Include="IntEventArgs.h">
+      <Filter>Support Code\EventArgs</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherIntEventArgs.h">
+      <Filter>Support Code\EventArgs</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerIntEventArgs.h">
+      <Filter>Support Code\EventArgs</Filter>
+    </ClInclude>
+    <ClInclude Include="UniqueIntEventArgs.h">
+      <Filter>Support Code\EventArgs</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedIntEventArgs.h">
+      <Filter>Support Code\EventArgs</Filter>
+    </ClInclude>
+    <ClInclude Include="IntFloatEventArgs.h">
+      <Filter>Support Code\EventArgs</Filter>
+    </ClInclude>
+    <ClInclude Include="NoOpJsonValueTransmuter.h">
+      <Filter>Support Code\Parse</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{15dc3dd2-4417-437c-b793-bd9730b59c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support Code">
+      <UniqueIdentifier>{effde654-5b5a-4a90-bb68-b7f7ecda92a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support Code\Parse">
+      <UniqueIdentifier>{663c43ef-9dd2-4965-aac7-160b0f8678f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files">
+      <UniqueIdentifier>{3d3c267e-56e1-4d0a-aa21-f22bca144918}</UniqueIdentifier>
+      <Extensions>Files\</Extensions>
+    </Filter>
+    <Filter Include="Support Code\EventArgs">
+      <UniqueIdentifier>{d5a6d5d7-51ac-4307-b903-0355ff90b8cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JsonTestParseHelper.inl">
+      <Filter>Support Code\Parse</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="Files\TestParse.json">
+      <Filter>Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Files\TestGameObjectParse.json">
+      <Filter>Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Files\TestScopeJsonParse.json">
+      <Filter>Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Files\TestActionParse.json">
+      <Filter>Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Files\TestAttributedReactionParse.json">
+      <Filter>Files</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Files\TestActionExpressionParse.json">
+      <Filter>Files</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>

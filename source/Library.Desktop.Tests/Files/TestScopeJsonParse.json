@@ -1,0 +1,56 @@
+{
+  "Encounter": {
+    "Difficulty": 5,
+    "Occurrences": {
+      "__type": "integer",
+      "__value": [ 2, 4, 6, 8 ]
+    },
+    "LocationName": "Dark Forest",
+    "Rewards": [
+      {
+        "value": 100,
+        "name": {
+          "__value": "Dark Helm",
+          "__type": "string"
+        }
+      },
+      {
+        "__value": {
+          "value": {
+            "__value": 200
+          },
+          "name": "Rare Gem",
+          "probability": [ 0.5, 0.6, 0.75 ]
+        }
+      }
+    ],
+    "Enemies": {
+      "__type": "object",
+      "__class": "AttributedThing",
+      "__value": [
+        {
+          "float Health": [ 100.0, 200 ]
+        },
+        {
+          "Spawn": {
+            "__type": "vector",
+            "__value": "vector<5.0|6.0|7.0|8.0>"
+          },
+          "Health": [ 60.60 ],
+          "Level": 5
+        },
+        {
+          "Transform": "matrix[<3.0|4.0|4.0|3.0>,<0.0|0.0|0.0|0.0>,<0.0|0.0|0.0|0.0>,<5.5|5.5|5.5|5.5>]",
+          "Spawn": "vector<1.0|2.2|3.6|0.0>",
+          "Health": {
+            "__value": [ 16.1, 32, 63.9 ]
+          }
+        }
+      ]
+    },
+    "Weather": {
+      "IDs": [ "Normal", "Rainy" ],
+      "probabilities": [ 0.8, 0.2 ]
+    }
+  }
+}

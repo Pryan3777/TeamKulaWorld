@@ -1,0 +1,42 @@
+{
+  "Hierarchy": {
+    "__class": "TestGameObject",
+    "__value": {
+      "Name": "My Super Awesome Root GameObject",
+      "Transform": {
+        "__class": "Transform",
+        "__value": {
+          "LocalPosition": "vector<1.0|2.1|3.2|5.3>",
+          "LocalRotation": "vector<8.5|13.8|21.13|34.21>"
+        }
+      },
+      "object TestGameObject Children": [
+        {
+          "Name": "The first child",
+          "GameObject Children": {
+            "Name": "The only pure GameObject"
+          }
+        },
+        {
+          "Transform": {
+            "__class": "Transform",
+            "__value": {
+              "LocalPosition": "vector<0.1|1.0|0.2|2.1>",
+              "LocalRotation": "vector<1.0|0.3|3.2|2.1>",
+              "LocalScale": "vector<1.0|0.4|4.3|3.2>"
+            }
+          }
+        },
+        {
+          "Name": "Down",
+          "object TestGameObject Children": {
+            "Name": "Downer",
+            "object TestGameObject Children": {
+              "Name": "Downest"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

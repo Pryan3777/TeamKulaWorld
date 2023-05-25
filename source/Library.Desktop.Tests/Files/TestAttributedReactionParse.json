@@ -1,0 +1,43 @@
+{
+  "object GameObject Scene": {
+    "string Name": "Main",
+    "Actions": [
+      {
+        "__class": "ActionIncrement",
+        "__value": {
+          "string Name": "UpdateCounter"
+        }
+      },
+      {
+        "__class": "ActionIf",
+        "__value": {
+          "string Name": "CreateEvents",
+          "integer Condition": 1,
+          "object ActionEvent Actions": [
+            {
+              "string Subtype": "Amazing Event",
+              "integer MillisecondDelay": 50,
+              "integer Step": 10
+            },
+            {
+              "string Subtype": "Unamazing Occurrence",
+              "integer MillisecondDelay": 100,
+              "integer Step": 5
+            },
+            {
+              "string Subtype": "Totally Ignored",
+              "integer MillisecondDelay": 150,
+              "integer Step": -20
+            }
+          ]
+        }
+      }
+    ],
+    "object AttributedReaction Response": {
+      "string ReactsToSubtypeRegex": ".+mazing .+",
+      "object ActionIncrement Actions": {
+        "string Name": "ResponseCounter"
+      }
+    }
+  }
+}

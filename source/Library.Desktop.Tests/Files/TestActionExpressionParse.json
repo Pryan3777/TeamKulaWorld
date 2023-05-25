@@ -1,0 +1,21 @@
+{
+  "object GameObject Scene": {
+    "string Name": "Root",
+    "integer Counter": 0,
+    "float Angle": 0.0,
+    "object ActionExpression Actions": [
+      {
+        "Expression": "<<<this.Name == Root>>>"
+      },
+      {
+        "Expression": "<<<++ this.Counter>>>"
+      },
+      {
+        "Expression": "<<<(this.Counter > 10) || (this.Counter == 10)>>>"
+      },
+      {
+        "Expression": "<<<this.Angle = 2 * sin(deg->rad(this.Counter * 30))>>>"
+      }
+    ]
+  }
+}

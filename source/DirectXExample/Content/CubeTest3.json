@@ -1,0 +1,32 @@
+{
+  "MapXExtent": 10,
+  "MapYExtent": 10,
+  "MapZExtent": 10,
+  "object Player Player": {
+    "string Name": "Main",
+    "integer Score": 7,
+    "integer PlayerDirection": 2,
+    "integer CubeFace": 1,
+    "integer CubeID": 245
+  },
+  "Cubes": {
+    "object Cube 245": {
+      "string Name": "Cube 1",
+      "object Transform Transform": {
+        "LocalPosition": "vector<2|4|5|0>"
+      }
+    },
+    "object Cube 254": {
+      "string Name": "Cube 2",
+      "object Transform Transform": {
+        "LocalPosition": "vector<2|5|4|0>"
+      }
+    },
+    "object Cube 145": {
+      "string Name": "Cube 3",
+      "object Transform Transform": {
+        "LocalPosition": "vector<1|4|5|0>"
+      }
+    }
+  }
+}

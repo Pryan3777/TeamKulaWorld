@@ -1,0 +1,1082 @@
+{
+  "MapXExtent": 27,
+  "MapYExtent": 13,
+  "MapZExtent": 21,
+  "object Player Player": {
+    "string Name": "Main",
+    "integer Score": 0,
+    "integer PlayerDirection": 6,
+    "integer CubeFace": 1,
+    "integer CubeID": 5039
+  },
+  "Cubes": {
+    "object Cube 6966": {
+      "string Name": "Cube 1",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|6|15|0>"
+      }
+    },
+    "object Cube 6965": {
+      "string Name": "Cube 2",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|6|14|0>"
+      }
+    },
+    "object Cube 6964": {
+      "string Name": "Cube 3",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|6|13|0>"
+      }
+    },
+    "object Cube 6963": {
+      "string Name": "Cube 4",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|6|12|0>"
+      },
+      "object CubeOccupant Up": {
+        "integer OccupantType": 1,
+        "integer Value": 10
+      },
+      "object CubeOccupant Down": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 6962": {
+      "string Name": "Cube 5",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|6|11|0>"
+      }
+    },
+    "object Cube 6961": {
+      "string Name": "Cube 6",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|6|10|0>"
+      },
+      "object CubeOccupant Right": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 6960": {
+      "string Name": "Cube 7",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|6|9|0>"
+      }
+    },
+    "object Cube 6959": {
+      "string Name": "Cube 8",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|6|8|0>"
+      }
+    },
+    "object Cube 6958": {
+      "string Name": "Cube 9",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|6|7|0>"
+      }
+    },
+    "object Cube 6957": {
+      "string Name": "Cube 10",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|6|6|0>"
+      }
+    },
+    "object Cube 6956": {
+      "string Name": "Cube 11",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|6|5|0>"
+      }
+    },
+    "object Cube 6955": {
+      "string Name": "Cube 12",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|6|4|0>"
+      }
+    },
+    "object Cube 6954": {
+      "string Name": "Cube 13",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|6|3|0>"
+      }
+    },
+    "object Cube 6953": {
+      "string Name": "Cube 14",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|6|2|0>"
+      }
+    },
+    "object Cube 6952": {
+      "string Name": "Cube 15",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|6|1|0>"
+      }
+    },
+    "object Cube 6951": {
+      "string Name": "Cube 16",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|6|0|0>"
+      }
+    },
+    "object Cube 6972": {
+      "string Name": "Cube 17",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|7|0|0>"
+      }
+    },
+    "object Cube 6993": {
+      "string Name": "Cube 18",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|8|0|0>"
+      }
+    },
+    "object Cube 7014": {
+      "string Name": "Cube 19",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|9|0|0>"
+      }
+    },
+    "object Cube 7035": {
+      "string Name": "Cube 20",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|10|0|0>"
+      }
+    },
+    "object Cube 7056": {
+      "string Name": "Cube 21",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|11|0|0>"
+      }
+    },
+    "object Cube 7077": {
+      "string Name": "Cube 22",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|12|0|0>"
+      },
+      "object CubeOccupant Forward": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 6804": {
+      "string Name": "Cube 23",
+      "object Transform Transform": {
+        "LocalPosition": "vector<24|12|0|0>"
+      }
+    },
+    "object Cube 6531": {
+      "string Name": "Cube 24",
+      "object Transform Transform": {
+        "LocalPosition": "vector<23|12|0|0>"
+      }
+    },
+    "object Cube 6258": {
+      "string Name": "Cube 25",
+      "object Transform Transform": {
+        "LocalPosition": "vector<22|12|0|0>"
+      }
+    },
+    "object Cube 6741": {
+      "string Name": "Cube 26",
+      "object Transform Transform": {
+        "LocalPosition": "vector<24|9|0|0>"
+      }
+    },
+    "object Cube 6468": {
+      "string Name": "Cube 27",
+      "object Transform Transform": {
+        "LocalPosition": "vector<23|9|0|0>"
+      }
+    },
+    "object Cube 6195": {
+      "string Name": "Cube 28",
+      "object Transform Transform": {
+        "LocalPosition": "vector<22|9|0|0>"
+      }
+    },
+    "object Cube 6216": {
+      "string Name": "Cube 29",
+      "object Transform Transform": {
+        "LocalPosition": "vector<22|10|0|0>"
+      }
+    },
+    "object Cube 6237": {
+      "string Name": "Cube 30",
+      "object Transform Transform": {
+        "LocalPosition": "vector<22|11|0|0>"
+      }
+    },
+    "object Cube 4305": {
+      "string Name": "Cube 31",
+      "object Transform Transform": {
+        "LocalPosition": "vector<15|10|0|0>"
+      }
+    },
+    "object Cube 4221": {
+      "string Name": "Cube 32",
+      "object Transform Transform": {
+        "LocalPosition": "vector<15|6|0|0>"
+      }
+    },
+    "object Cube 4284": {
+      "string Name": "Cube 33",
+      "object Transform Transform": {
+        "LocalPosition": "vector<15|9|0|0>"
+      }
+    },
+    "object Cube 5586": {
+      "string Name": "Cube 34",
+      "object Transform Transform": {
+        "LocalPosition": "vector<20|6|0|0>"
+      }
+    },
+    "object Cube 4263": {
+      "string Name": "Cube 35",
+      "object Transform Transform": {
+        "LocalPosition": "vector<15|8|0|0>"
+      }
+    },
+    "object Cube 4242": {
+      "string Name": "Cube 36",
+      "object Transform Transform": {
+        "LocalPosition": "vector<15|7|0|0>"
+      }
+    },
+    "object Cube 5607": {
+      "string Name": "Cube 37",
+      "object Transform Transform": {
+        "LocalPosition": "vector<20|7|0|0>"
+      }
+    },
+    "object Cube 5628": {
+      "string Name": "Cube 38",
+      "object Transform Transform": {
+        "LocalPosition": "vector<20|8|0|0>"
+      }
+    },
+    "object Cube 5649": {
+      "string Name": "Cube 39",
+      "object Transform Transform": {
+        "LocalPosition": "vector<20|9|0|0>"
+      }
+    },
+    "object Cube 5670": {
+      "string Name": "Cube 40",
+      "object Transform Transform": {
+        "LocalPosition": "vector<20|10|0|0>"
+      }
+    },
+    "object Cube 5691": {
+      "string Name": "Cube 41",
+      "object Transform Transform": {
+        "LocalPosition": "vector<20|11|0|0>"
+      }
+    },
+    "object Cube 5712": {
+      "string Name": "Cube 42",
+      "object Transform Transform": {
+        "LocalPosition": "vector<20|12|0|0>"
+      }
+    },
+    "object Cube 5439": {
+      "string Name": "Cube 43",
+      "object Transform Transform": {
+        "LocalPosition": "vector<19|12|0|0>"
+      }
+    },
+    "object Cube 5166": {
+      "string Name": "Cube 44",
+      "object Transform Transform": {
+        "LocalPosition": "vector<18|12|0|0>"
+      }
+    },
+    "object Cube 4893": {
+      "string Name": "Cube 45",
+      "object Transform Transform": {
+        "LocalPosition": "vector<17|12|0|0>"
+      }
+    },
+    "object Cube 5376": {
+      "string Name": "Cube 46",
+      "object Transform Transform": {
+        "LocalPosition": "vector<19|9|0|0>"
+      }
+    },
+    "object Cube 5103": {
+      "string Name": "Cube 47",
+      "object Transform Transform": {
+        "LocalPosition": "vector<18|9|0|0>"
+      }
+    },
+    "object Cube 4767": {
+      "string Name": "Cube 48",
+      "object Transform Transform": {
+        "LocalPosition": "vector<17|6|0|0>"
+      }
+    },
+    "object Cube 4851": {
+      "string Name": "Cube 49",
+      "object Transform Transform": {
+        "LocalPosition": "vector<17|10|0|0>"
+      }
+    },
+    "object Cube 4872": {
+      "string Name": "Cube 50",
+      "object Transform Transform": {
+        "LocalPosition": "vector<17|11|0|0>"
+      }
+    },
+    "object Cube 4788": {
+      "string Name": "Cube 51",
+      "object Transform Transform": {
+        "LocalPosition": "vector<17|7|0|0>"
+      }
+    },
+    "object Cube 4809": {
+      "string Name": "Cube 52",
+      "object Transform Transform": {
+        "LocalPosition": "vector<17|8|0|0>"
+      }
+    },
+    "object Cube 4326": {
+      "string Name": "Cube 53",
+      "object Transform Transform": {
+        "LocalPosition": "vector<15|11|0|0>"
+      }
+    },
+    "object Cube 4347": {
+      "string Name": "Cube 54",
+      "object Transform Transform": {
+        "LocalPosition": "vector<15|12|0|0>"
+      }
+    },
+    "object Cube 4074": {
+      "string Name": "Cube 55",
+      "object Transform Transform": {
+        "LocalPosition": "vector<14|12|0|0>"
+      }
+    },
+    "object Cube 3801": {
+      "string Name": "Cube 56",
+      "object Transform Transform": {
+        "LocalPosition": "vector<13|12|0|0>"
+      }
+    },
+    "object Cube 3528": {
+      "string Name": "Cube 57",
+      "object Transform Transform": {
+        "LocalPosition": "vector<12|12|0|0>"
+      }
+    },
+    "object Cube 3507": {
+      "string Name": "Cube 58",
+      "object Transform Transform": {
+        "LocalPosition": "vector<12|11|0|0>"
+      }
+    },
+    "object Cube 3486": {
+      "string Name": "Cube 59",
+      "object Transform Transform": {
+        "LocalPosition": "vector<12|10|0|0>"
+      }
+    },
+    "object Cube 3465": {
+      "string Name": "Cube 60",
+      "object Transform Transform": {
+        "LocalPosition": "vector<12|9|0|0>"
+      }
+    },
+    "object Cube 3444": {
+      "string Name": "Cube 61",
+      "object Transform Transform": {
+        "LocalPosition": "vector<12|8|0|0>"
+      }
+    },
+    "object Cube 3423": {
+      "string Name": "Cube 62",
+      "object Transform Transform": {
+        "LocalPosition": "vector<12|7|0|0>"
+      }
+    },
+    "object Cube 3402": {
+      "string Name": "Cube 63",
+      "object Transform Transform": {
+        "LocalPosition": "vector<12|6|0|0>"
+      }
+    },
+    "object Cube 3675": {
+      "string Name": "Cube 64",
+      "object Transform Transform": {
+        "LocalPosition": "vector<13|6|0|0>"
+      }
+    },
+    "object Cube 3948": {
+      "string Name": "Cube 65",
+      "object Transform Transform": {
+        "LocalPosition": "vector<14|6|0|0>"
+      }
+    },
+    "object Cube 2709": {
+      "string Name": "Cube 66",
+      "object Transform Transform": {
+        "LocalPosition": "vector<9|12|0|0>"
+      }
+    },
+    "object Cube 2856": {
+      "string Name": "Cube 67",
+      "object Transform Transform": {
+        "LocalPosition": "vector<10|6|0|0>"
+      }
+    },
+    "object Cube 2877": {
+      "string Name": "Cube 68",
+      "object Transform Transform": {
+        "LocalPosition": "vector<10|7|0|0>"
+      }
+    },
+    "object Cube 2898": {
+      "string Name": "Cube 69",
+      "object Transform Transform": {
+        "LocalPosition": "vector<10|8|0|0>"
+      }
+    },
+    "object Cube 2919": {
+      "string Name": "Cube 70",
+      "object Transform Transform": {
+        "LocalPosition": "vector<10|9|0|0>"
+      }
+    },
+    "object Cube 2940": {
+      "string Name": "Cube 71",
+      "object Transform Transform": {
+        "LocalPosition": "vector<10|10|0|0>"
+      }
+    },
+    "object Cube 2961": {
+      "string Name": "Cube 72",
+      "object Transform Transform": {
+        "LocalPosition": "vector<10|11|0|0>"
+      }
+    },
+    "object Cube 2982": {
+      "string Name": "Cube 73",
+      "object Transform Transform": {
+        "LocalPosition": "vector<10|12|0|0>"
+      }
+    },
+    "object Cube 2436": {
+      "string Name": "Cube 74",
+      "object Transform Transform": {
+        "LocalPosition": "vector<8|12|0|0>"
+      }
+    },
+    "object Cube 2163": {
+      "string Name": "Cube 75",
+      "object Transform Transform": {
+        "LocalPosition": "vector<7|12|0|0>"
+      }
+    },
+    "object Cube 2583": {
+      "string Name": "Cube 76",
+      "object Transform Transform": {
+        "LocalPosition": "vector<9|6|0|0>"
+      }
+    },
+    "object Cube 2310": {
+      "string Name": "Cube 77",
+      "object Transform Transform": {
+        "LocalPosition": "vector<8|6|0|0>"
+      }
+    },
+    "object Cube 2037": {
+      "string Name": "Cube 78",
+      "object Transform Transform": {
+        "LocalPosition": "vector<7|6|0|0>"
+      }
+    },
+    "object Cube 2058": {
+      "string Name": "Cube 79",
+      "object Transform Transform": {
+        "LocalPosition": "vector<7|7|0|0>"
+      }
+    },
+    "object Cube 2079": {
+      "string Name": "Cube 80",
+      "object Transform Transform": {
+        "LocalPosition": "vector<7|8|0|0>"
+      }
+    },
+    "object Cube 2100": {
+      "string Name": "Cube 81",
+      "object Transform Transform": {
+        "LocalPosition": "vector<7|9|0|0>"
+      }
+    },
+    "object Cube 2373": {
+      "string Name": "Cube 82",
+      "object Transform Transform": {
+        "LocalPosition": "vector<8|9|0|0>"
+      }
+    },
+    "object Cube 1218": {
+      "string Name": "Cube 83",
+      "object Transform Transform": {
+        "LocalPosition": "vector<4|6|0|0>"
+      }
+    },
+    "object Cube 1491": {
+      "string Name": "Cube 84",
+      "object Transform Transform": {
+        "LocalPosition": "vector<5|6|0|0>"
+      }
+    },
+    "object Cube 945": {
+      "string Name": "Cube 85",
+      "object Transform Transform": {
+        "LocalPosition": "vector<3|6|0|0>"
+      }
+    },
+    "object Cube 672": {
+      "string Name": "Cube 86",
+      "object Transform Transform": {
+        "LocalPosition": "vector<2|6|0|0>"
+      }
+    },
+    "object Cube 735": {
+      "string Name": "Cube 87",
+      "object Transform Transform": {
+        "LocalPosition": "vector<2|9|0|0>"
+      }
+    },
+    "object Cube 416": {
+      "string Name": "Cube 88",
+      "object Transform Transform": {
+        "LocalPosition": "vector<1|6|17|0>"
+      }
+    },
+    "object Cube 1008": {
+      "string Name": "Cube 89",
+      "object Transform Transform": {
+        "LocalPosition": "vector<3|9|0|0>"
+      }
+    },
+    "object Cube 1281": {
+      "string Name": "Cube 90",
+      "object Transform Transform": {
+        "LocalPosition": "vector<4|9|0|0>"
+      }
+    },
+    "object Cube 1554": {
+      "string Name": "Cube 91",
+      "object Transform Transform": {
+        "LocalPosition": "vector<5|9|0|0>"
+      }
+    },
+    "object Cube 1071": {
+      "string Name": "Cube 92",
+      "object Transform Transform": {
+        "LocalPosition": "vector<3|12|0|0>"
+      }
+    },
+    "object Cube 1344": {
+      "string Name": "Cube 93",
+      "object Transform Transform": {
+        "LocalPosition": "vector<4|12|0|0>"
+      }
+    },
+    "object Cube 1617": {
+      "string Name": "Cube 94",
+      "object Transform Transform": {
+        "LocalPosition": "vector<5|12|0|0>"
+      }
+    },
+    "object Cube 798": {
+      "string Name": "Cube 95",
+      "object Transform Transform": {
+        "LocalPosition": "vector<2|12|0|0>"
+      }
+    },
+    "object Cube 777": {
+      "string Name": "Cube 96",
+      "object Transform Transform": {
+        "LocalPosition": "vector<2|11|0|0>"
+      }
+    },
+    "object Cube 962": {
+      "string Name": "Cube 97",
+      "object Transform Transform": {
+        "LocalPosition": "vector<3|6|17|0>"
+      },
+      "object CubeOccupant Down": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 756": {
+      "string Name": "Cube 98",
+      "object Transform Transform": {
+        "LocalPosition": "vector<2|10|0|0>"
+      }
+    },
+    "object Cube 415": {
+      "string Name": "Cube 99",
+      "object Transform Transform": {
+        "LocalPosition": "vector<1|6|16|0>"
+      }
+    },
+    "object Cube 689": {
+      "string Name": "Cube 100",
+      "object Transform Transform": {
+        "LocalPosition": "vector<2|6|17|0>"
+      }
+    },
+    "object Cube 1512": {
+      "string Name": "Cube 101",
+      "object Transform Transform": {
+        "LocalPosition": "vector<5|7|0|0>"
+      }
+    },
+    "object Cube 1533": {
+      "string Name": "Cube 102",
+      "object Transform Transform": {
+        "LocalPosition": "vector<5|8|0|0>"
+      }
+    },
+    "object Cube 1235": {
+      "string Name": "Cube 103",
+      "object Transform Transform": {
+        "LocalPosition": "vector<4|6|17|0>"
+      }
+    },
+    "object Cube 1508": {
+      "string Name": "Cube 104",
+      "object Transform Transform": {
+        "LocalPosition": "vector<5|6|17|0>"
+      }
+    },
+    "object Cube 409": {
+      "string Name": "Cube 105",
+      "object Transform Transform": {
+        "LocalPosition": "vector<1|6|10|0>"
+      },
+      "object CubeOccupant Up": {
+        "integer OccupantType": 1,
+        "integer Value": 10
+      }
+    },
+    "object Cube 410": {
+      "string Name": "Cube 106",
+      "object Transform Transform": {
+        "LocalPosition": "vector<1|6|11|0>"
+      }
+    },
+    "object Cube 411": {
+      "string Name": "Cube 107",
+      "object Transform Transform": {
+        "LocalPosition": "vector<1|6|12|0>"
+      }
+    },
+    "object Cube 412": {
+      "string Name": "Cube 108",
+      "object Transform Transform": {
+        "LocalPosition": "vector<1|6|13|0>"
+      },
+      "object CubeOccupant Left": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      },
+      "object CubeOccupant Right": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 413": {
+      "string Name": "Cube 109",
+      "object Transform Transform": {
+        "LocalPosition": "vector<1|6|14|0>"
+      }
+    },
+    "object Cube 414": {
+      "string Name": "Cube 110",
+      "object Transform Transform": {
+        "LocalPosition": "vector<1|6|15|0>"
+      }
+    },
+    "object Cube 1781": {
+      "string Name": "Cube 111",
+      "object Transform Transform": {
+        "LocalPosition": "vector<6|6|17|0>"
+      }
+    },
+    "object Cube 2054": {
+      "string Name": "Cube 112",
+      "object Transform Transform": {
+        "LocalPosition": "vector<7|6|17|0>"
+      }
+    },
+    "object Cube 1760": {
+      "string Name": "Cube 113",
+      "object Transform Transform": {
+        "LocalPosition": "vector<6|5|17|0>"
+      }
+    },
+    "object Cube 2033": {
+      "string Name": "Cube 114",
+      "object Transform Transform": {
+        "LocalPosition": "vector<7|5|17|0>"
+      },
+      "object CubeOccupant Forward": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      },
+      "object CubeOccupant Backward": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 2012": {
+      "string Name": "Cube 115",
+      "object Transform Transform": {
+        "LocalPosition": "vector<7|4|17|0>"
+      }
+    },
+    "object Cube 2306": {
+      "string Name": "Cube 116",
+      "object Transform Transform": {
+        "LocalPosition": "vector<8|5|17|0>"
+      }
+    },
+    "object Cube 2285": {
+      "string Name": "Cube 117",
+      "object Transform Transform": {
+        "LocalPosition": "vector<8|4|17|0>"
+      }
+    },
+    "object Cube 2558": {
+      "string Name": "Cube 118",
+      "object Transform Transform": {
+        "LocalPosition": "vector<9|4|17|0>"
+      }
+    },
+    "object Cube 2305": {
+      "string Name": "Cube 119",
+      "object Transform Transform": {
+        "LocalPosition": "vector<8|5|16|0>"
+      }
+    },
+    "object Cube 2578": {
+      "string Name": "Cube 120",
+      "object Transform Transform": {
+        "LocalPosition": "vector<9|5|16|0>"
+      }
+    },
+    "object Cube 2851": {
+      "string Name": "Cube 121",
+      "object Transform Transform": {
+        "LocalPosition": "vector<10|5|16|0>"
+      }
+    },
+    "object Cube 3124": {
+      "string Name": "Cube 122",
+      "object Transform Transform": {
+        "LocalPosition": "vector<11|5|16|0>"
+      },
+      "object CubeOccupant Backward": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 3397": {
+      "string Name": "Cube 123",
+      "object Transform Transform": {
+        "LocalPosition": "vector<12|5|16|0>"
+      }
+    },
+    "object Cube 2852": {
+      "string Name": "Cube 124",
+      "object Transform Transform": {
+        "LocalPosition": "vector<10|5|17|0>"
+      }
+    },
+    "object Cube 3125": {
+      "string Name": "Cube 125",
+      "object Transform Transform": {
+        "LocalPosition": "vector<11|5|17|0>"
+      }
+    },
+    "object Cube 3398": {
+      "string Name": "Cube 126",
+      "object Transform Transform": {
+        "LocalPosition": "vector<12|5|17|0>"
+      },
+      "object CubeOccupant Forward": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 3671": {
+      "string Name": "Cube 127",
+      "object Transform Transform": {
+        "LocalPosition": "vector<13|5|17|0>"
+      }
+    },
+    "object Cube 3672": {
+      "string Name": "Cube 128",
+      "object Transform Transform": {
+        "LocalPosition": "vector<13|5|18|0>"
+      },
+      "object CubeOccupant Right": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 3944": {
+      "string Name": "Cube 129",
+      "object Transform Transform": {
+        "LocalPosition": "vector<14|5|17|0>"
+      }
+    },
+    "object Cube 4217": {
+      "string Name": "Cube 130",
+      "object Transform Transform": {
+        "LocalPosition": "vector<15|5|17|0>"
+      },
+      "object CubeOccupant Down": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 4490": {
+      "string Name": "Cube 131",
+      "object Transform Transform": {
+        "LocalPosition": "vector<16|5|17|0>"
+      }
+    },
+    "object Cube 3103": {
+      "string Name": "Cube 132",
+      "object Transform Transform": {
+        "LocalPosition": "vector<11|4|16|0>"
+      },
+      "object CubeOccupant Backward": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 3082": {
+      "string Name": "Cube 133",
+      "object Transform Transform": {
+        "LocalPosition": "vector<11|3|16|0>"
+      },
+      "object CubeOccupant Backward": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 4763": {
+      "string Name": "Cube 134",
+      "object Transform Transform": {
+        "LocalPosition": "vector<17|5|17|0>"
+      }
+    },
+    "object Cube 4764": {
+      "string Name": "Cube 135",
+      "object Transform Transform": {
+        "LocalPosition": "vector<17|5|18|0>"
+      },
+      "object CubeOccupant Down": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 5037": {
+      "string Name": "Cube 136",
+      "object Transform Transform": {
+        "LocalPosition": "vector<18|5|18|0>"
+      }
+    },
+    "object Cube 5310": {
+      "string Name": "Cube 137",
+      "object Transform Transform": {
+        "LocalPosition": "vector<19|5|18|0>"
+      }
+    },
+    "object Cube 5583": {
+      "string Name": "Cube 138",
+      "object Transform Transform": {
+        "LocalPosition": "vector<20|5|18|0>"
+      }
+    },
+    "object Cube 5856": {
+      "string Name": "Cube 139",
+      "object Transform Transform": {
+        "LocalPosition": "vector<21|5|18|0>"
+      }
+    },
+    "object Cube 5582": {
+      "string Name": "Cube 140",
+      "object Transform Transform": {
+        "LocalPosition": "vector<20|5|17|0>"
+      },
+      "object CubeOccupant Down": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 5581": {
+      "string Name": "Cube 141",
+      "object Transform Transform": {
+        "LocalPosition": "vector<20|5|16|0>"
+      }
+    },
+    "object Cube 5855": {
+      "string Name": "Cube 142",
+      "object Transform Transform": {
+        "LocalPosition": "vector<21|5|17|0>"
+      }
+    },
+    "object Cube 5854": {
+      "string Name": "Cube 143",
+      "object Transform Transform": {
+        "LocalPosition": "vector<21|5|16|0>"
+      },
+      "object CubeOccupant Down": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 5853": {
+      "string Name": "Cube 144",
+      "object Transform Transform": {
+        "LocalPosition": "vector<21|5|15|0>"
+      },
+      "object CubeOccupant Up": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 6127": {
+      "string Name": "Cube 145",
+      "object Transform Transform": {
+        "LocalPosition": "vector<22|5|16|0>"
+      }
+    },
+    "object Cube 6400": {
+      "string Name": "Cube 146",
+      "object Transform Transform": {
+        "LocalPosition": "vector<23|5|16|0>"
+      }
+    },
+    "object Cube 6673": {
+      "string Name": "Cube 147",
+      "object Transform Transform": {
+        "LocalPosition": "vector<24|5|16|0>"
+      }
+    },
+    "object Cube 6946": {
+      "string Name": "Cube 148",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|5|16|0>"
+      }
+    },
+    "object Cube 6967": {
+      "string Name": "Cube 149",
+      "object Transform Transform": {
+        "LocalPosition": "vector<25|6|16|0>"
+      }
+    },
+    "object Cube 3396": {
+      "string Name": "Cube 150",
+      "object Transform Transform": {
+        "LocalPosition": "vector<12|5|15|0>"
+      }
+    },
+    "object Cube 3395": {
+      "string Name": "Cube 151",
+      "object Transform Transform": {
+        "LocalPosition": "vector<12|5|14|0>"
+      }
+    },
+    "object Cube 3394": {
+      "string Name": "Cube 152",
+      "object Transform Transform": {
+        "LocalPosition": "vector<12|5|13|0>"
+      },
+      "object CubeOccupant Backward": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 3121": {
+      "string Name": "Cube 153",
+      "object Transform Transform": {
+        "LocalPosition": "vector<11|5|13|0>"
+      }
+    },
+    "object Cube 3120": {
+      "string Name": "Cube 154",
+      "object Transform Transform": {
+        "LocalPosition": "vector<11|5|12|0>"
+      },
+      "object CubeOccupant Up": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 5038": {
+      "string Name": "Cube 155",
+      "object Transform Transform": {
+        "LocalPosition": "vector<18|5|19|0>"
+      }
+    },
+    "object Cube 5039": {
+      "string Name": "Cube 156",
+      "object Transform Transform": {
+        "LocalPosition": "vector<18|5|20|0>"
+      }
+    },
+    "object Cube 3061": {
+      "string Name": "Cube 157",
+      "object Transform Transform": {
+        "LocalPosition": "vector<11|2|16|0>"
+      },
+      "object CubeOccupant Forward": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      },
+      "object CubeOccupant Right": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      },
+      "object CubeOccupant Left": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      },
+      "object CubeOccupant Backward": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    },
+    "object Cube 3040": {
+      "string Name": "Cube 158",
+      "object Transform Transform": {
+        "LocalPosition": "vector<11|1|16|0>"
+      },
+      "object CubeOccupant Down": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      },
+      "object CubeOccupant Forward": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      },
+      "object CubeOccupant Right": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      },
+      "object CubeOccupant Left": {
+        "integer OccupantType": 0,
+        "integer Value": 10
+      }
+    }
+  }
+}

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="KulaGameInstance.cpp" />
+    <ClCompile Include="RenderingGame.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KulaGameInstance.h" />
+    <ClInclude Include="RenderingGame.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Content">
+      <UniqueIdentifier>{81ff068a-9489-45c7-a2b4-eaa20096aaa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Models">
+      <UniqueIdentifier>{ce79cebb-10ee-4a97-9eaa-8c01169478f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Shaders">
+      <UniqueIdentifier>{7a7be7c0-17a7-48c5-9dcc-24cce601808f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Textures">
+      <UniqueIdentifier>{15143735-b0a5-4891-a390-996954240384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Fonts">
+      <UniqueIdentifier>{e39ef9cb-e2b6-4019-ad87-bd079a32d026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials">
+      <UniqueIdentifier>{8b82e15e-4e23-41d5-9bd8-760f8e1729bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Content\Shaders\GenericMaterialPS.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\Shaders\BasicPS.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\Shaders\BasicVS.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\Shaders\SkyboxPS.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\Shaders\SkyboxVS.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\Shaders\GenericMaterialVS.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="NormalVS.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="NormalPS.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="Content\Models\beach_ball.model">
+      <Filter>Content\Models</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Models\Sphere.obj.bin">
+      <Filter>Content\Models</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Textures\Checkerboard.png">
+      <Filter>Content\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Textures\DesertCubemap.dds">
+      <Filter>Content\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Textures\diffuse.png">
+      <Filter>Content\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Textures\Maskonaive2_1024.dds">
+      <Filter>Content\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Fonts\Arial_14_Regular.spritefont">
+      <Filter>Content\Fonts</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Fonts\SpriteFont.spritefont">
+      <Filter>Content\Fonts</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Fonts\ScoreFont.spritefont">
+      <Filter>Content\Fonts</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Models\Cube.model">
+      <Filter>Content\Models</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\GameData.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\CubeTest.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\CubeTest2.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Textures\CubeTexture_1.png">
+      <Filter>Content\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\CubeTest3.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Textures\Coin_Base.png">
+      <Filter>Content\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Textures\Coin_Normal.png">
+      <Filter>Content\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Models\Coin.model">
+      <Filter>Content\Models</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Fonts\testfile3.spritefont">
+      <Filter>Content\Fonts</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Fonts\testfile.spritefont">
+      <Filter>Content\Fonts</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Fonts\testfile2.spritefont">
+      <Filter>Content\Fonts</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Fonts\Raleway.spritefont">
+      <Filter>Content\Fonts</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Fonts\FrozencaScriptTypeface.ttf">
+      <Filter>Content\Fonts</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Fonts\myfile.spritefont">
+      <Filter>Content\Fonts</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Fonts\myfile2.spritefont">
+      <Filter>Content\Fonts</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Models\Watermelon.model" />
+    <CopyFileToFolders Include="Content\Textures\Watermelon.png" />
+    <CopyFileToFolders Include="Content\Textures\DesertCubemapPAUL.dds">
+      <Filter>Content\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Sound Effects\BGM1.wav" />
+    <CopyFileToFolders Include="Content\Sound Effects\BGM4.wav" />
+    <CopyFileToFolders Include="Content\Sound Effects\HIRO_00014.wav" />
+    <CopyFileToFolders Include="Content\Textures\SKYboxHands.dds">
+      <Filter>Content\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Textures\PaulInMountainds.dds">
+      <Filter>Content\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Textures\OBIWANPAULskybox.dds">
+      <Filter>Content\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Textures\CubeTexture_2.png" />
+    <CopyFileToFolders Include="Content\Textures\CubeTexture_3.png" />
+    <CopyFileToFolders Include="Content\DylanSickGame.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Fonts\RailwayMedium_50.spritefont">
+      <Filter>Content\Fonts</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Fonts\RailwayMedium_70.spritefont">
+      <Filter>Content\Fonts</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Textures\ball.png">
+      <Filter>Content\Textures</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Level1.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Level2.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Level3.json">
+      <Filter>Content</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="Content\Textures\bg.png">
+      <Filter>Content\Textures</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
